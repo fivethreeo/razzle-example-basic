@@ -1,0 +1,19 @@
+{
+  "name": "razzle-example-basic",
+  "license": "MIT",
+  "version": "3.0.0",
+  "scripts": {
+    "build": "razzle build",
+    "start": "razzle start",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "test": "razzle test --env=jsdom"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "razzle": "^3.0.0"
+  }
+}
